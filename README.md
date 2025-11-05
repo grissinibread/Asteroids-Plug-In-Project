@@ -8,4 +8,4 @@ This change improves modularity, makes testing easier, and allows future feature
 My design can be seen in the following image:
 <img width="2254" height="1804" alt="Assignment 3 - Page 1 (2)" src="https://github.com/user-attachments/assets/86dc25f8-df57-47ba-81c6-b0f191f7cf80" />
 
-For comparison purposes, here is a link to the [original project]([url](https://github.com/PSNB92/Asteroids)).
+For comparison purposes, here is a link to the [original project](https://github.com/PSNB92/Asteroids).
