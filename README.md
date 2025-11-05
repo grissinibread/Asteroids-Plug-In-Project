@@ -1,3 +1,5 @@
+# Asteroids Plug-In Project
+
 The original Asteroids game contained a high level of coupling between its components.
 To address this, and to better support testing of **extensions** and **extension points**, I restructured the project to decouple the Vector and Clock classes from the rest of the game logic.
 
