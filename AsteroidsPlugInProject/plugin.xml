@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="edu.csusm.navarro.vector" name="Vector" schema="schema/edu.csusm.navarro.vector.exsd"/>
+   <extension-point id="edu.csusm.navarro.clock" name="Clock" schema="schema/edu.csusm.navarro.clock.exsd"/>
+
+	<!-- ========================================================= -->
+	<!-- Existing Extension Points -->
+	<!-- ========================================================= -->
+         
+
+	<!-- ========================================================= -->
+	<!-- NEW: Command Definition -->
+	<!-- ========================================================= -->
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            id="edu.csusm.navarro.commands.launchGame"
+            name="Launch Asteroids Game"
+            description="Starts the Asteroids Game using the loaded plugin factories.">
+      </command>
+   </extension>
+
+	<!-- ========================================================= -->
+	<!-- NEW: Handler Binding -->
+	<!-- ========================================================= -->
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            commandId="edu.csusm.navarro.commands.launchGame"
+            class="edu.csusm.navarro.handlers.Handler">
+      </handler>
+   </extension>
+
+	<!-- ========================================================= -->
+	<!-- NEW: Menu Contribution -->
+	<!-- ========================================================= -->
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         <menu
+               label="Asteroids"
+               id="edu.csusm.navarro.menu">
+            <command
+                  commandId="edu.csusm.navarro.commands.launchGame"
+                  label="Launch Game"
+                  style="push">
+            </command>
+         </menu>
+      </menuContribution>
+   </extension>
+
+</plugin>

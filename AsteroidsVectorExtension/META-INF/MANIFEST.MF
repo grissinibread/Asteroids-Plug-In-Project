@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: AsteroidsUtilityExtension
+Bundle-SymbolicName: AsteroidsVectorExtension;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Export-Package: edu.csusm.navarro.vector
+Require-Bundle: AsteroidsPlugInProject;bundle-version="1.0.0"
+Automatic-Module-Name: AsteroidsUtilityExtension
+Bundle-RequiredExecutionEnvironment: JavaSE-21

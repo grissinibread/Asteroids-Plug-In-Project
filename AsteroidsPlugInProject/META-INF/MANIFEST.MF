@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: AsteroidsPlugInProject
+Bundle-SymbolicName: AsteroidsPlugInProject;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Export-Package: edu.csusm.navarro.clock,
+ edu.csusm.navarro.vector
+Automatic-Module-Name: AsteroidsPlugInProject
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Require-Bundle: org.eclipse.equinox.registry,
+ org.eclipse.core.commands,
+ org.eclipse.core.runtime;bundle-version="3.33.100"

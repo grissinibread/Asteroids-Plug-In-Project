@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="edu.csusm.navarro.clock">
+      <friend
+            Clock="edu.csusm.navarro.clock.Clock"
+            ClockFactory="edu.csusm.navarro.clock.ClockFactory">
+      </friend>
+   </extension>
+</plugin>

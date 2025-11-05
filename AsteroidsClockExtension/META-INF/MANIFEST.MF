@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: AsteroidsEntityExtension
+Bundle-SymbolicName: AsteroidsClockExtension;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Export-Package: edu.csusm.navarro.clock
+Automatic-Module-Name: AsteroidsEntityExtension
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Import-Package: edu.csusm.navarro.clock
+Require-Bundle: AsteroidsPlugInProject;bundle-version="1.0.0"
